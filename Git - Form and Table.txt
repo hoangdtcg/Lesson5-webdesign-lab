@@ -34,3 +34,4 @@ form:
 - checkbox: chọn được nhiều
 
 - Trang deploy: https://www.netlify.com/
+- Trang demo: https://pf2105r1.netlify.app/
