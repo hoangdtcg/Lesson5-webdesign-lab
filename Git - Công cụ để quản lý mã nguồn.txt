@@ -1,0 +1,34 @@
+Git - Công cụ để quản lý mã nguồn
+https://git-scm.com/
+
+B1 - Tạo 1 Repo trên Github
+B2 - Vào VSCode mở màn hình terminal lên
+B3 - Câu lệnh cd để đi đến thư mục mình mong muốn (../ đi ra thư mục ngoài 1 lần)
+B4 - Git clone - Tạo 1 bản sao của repo trên github về máy của mình
+
+B5 - Git add . - Đóng gói những file mình muốn đẩy lên
+B6 - Git status - Kiểm tra xem đã đóng gói chưa
+B7 - Git commit -m "nội dung nhãn" - Gán nhãn phần thay đổi (-m : message)
+B8 - Git push origin master - Đưa thay đổi lên github
+
+FORM và TABLE
+
+table: hiển thị dữ liệu dạng bảng ở trên web <table> - border: đường viền
+tr: table-row : hàng
+td: table-data: ô dữ liệu trong bảng
+th: table-heading: tiêu đề
+rowspan: điều chỉnh dòng
+colspan: điều chỉnh cột
+
+form:
+- Cho phép người dùng nhập dữ liệu và gửi về server
+- Phân vùng các dữ liệu
+- form đăng ký đăng nhập
+- Thẻ chuyên để nhập dữ liệu: thẻ input
+- fieldset - Bao quanh form
+- legend - Tiêu đề của form
+- placeholder - gợi ý
+
+
+- radio: cùng name nếu muốn chọn 1
+- checkbox: chọn được nhiều

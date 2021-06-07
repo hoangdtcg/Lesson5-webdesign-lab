@@ -8,8 +8,106 @@
     <title>Document</title>
 </head>
 
+<style>
+    body {
+        background-color: rgb(240, 235, 248);
+    }
+    
+    div {
+        background-color: white;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    form {
+        width: 500px;
+    }
+    
+    input {
+        margin-bottom: 10px;
+    }
+</style>
+
 <body>
-    <p>Đây là demo về git</p>
+    <table border="1px">
+        <tr>
+            <th colspan="3">Thông tin cá nhân</th>
+        </tr>
+        <tr>
+            <td rowspan="3"><img src="avt.jpg" alt=""></td>
+            <td>
+                <p>Tên</p>
+            </td>
+            <td style="background-color: yellowgreen;">
+                Hoàng Ngọc Cẩm Tú
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <p>Tuổi</p>
+            </td>
+            <td>
+                <p>18</p>
+            </td>
+
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td>Hà Nội</td>
+        </tr>
+    </table>
+
+    <form>
+        <fieldset>
+            <legend>Đăng nhập</legend>
+            <input type="text" placeholder="Tên đăng nhập">
+            <input type="password" placeholder="Mật khẩu">
+            <button>Đăng nhập</button>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Buổi học hôm nay của bạn thế nào</legend>
+            <div>
+                <p>Dành 2 phút suy nghĩ về 2 tiếng học tập của ngày hôm nay nào.
+                </p>
+                <p style="color: red;">*Required</p>
+            </div>
+
+            <div>
+                <p>Bạn cảm thấy buổi học hôm nay thế nào? *</p>
+                <input type="radio" checked name="emo">Buồn chán - khó hiểu
+                <br>
+                <input type="radio" name="emo">Bình thường - không có gì đặc biệt
+                <br>
+                <input type="radio" name="emo">Khá vui - biết thêm vài thứ
+                <br>
+                <input type="radio" name="emo">Rất thích - vui - dễ hiểu
+            </div>
+
+            <div>
+                <p>Sở thích của bạn: *</p>
+                <input type="checkbox">Video Games
+                <br>
+                <input type="checkbox">Film
+                <br>
+                <input type="checkbox" checked>Soccer
+                <br>
+                <input type="checkbox">Music
+            </div>
+            <div>
+                <p>Hôm nay ngày bao nhiêu?</p>
+                <input type="date">
+            </div>
+            <div>
+                <p>Màu sắc bạn yêu thích là gì?</p>
+                <input type="color">
+            </div>
+
+        </fieldset>
+    </form>
 </body>
 
 </html>
