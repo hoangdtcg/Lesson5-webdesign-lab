@@ -32,3 +32,5 @@ form:
 
 - radio: cùng name nếu muốn chọn 1
 - checkbox: chọn được nhiều
+
+- Trang deploy: https://www.netlify.com/
